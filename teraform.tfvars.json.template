@@ -1,0 +1,29 @@
+{
+"additional_tags" : {
+    "Owner"   : "",
+    "Owner email" : "",
+    "Manager email" : "",
+    "Team email" : "",
+    "Description" : "",
+    "Environment" : "",
+    "Data Classification" : ""
+  },
+
+"db_master_username" : "",
+"admin_email" :  "",
+"deployment_name" : "",
+"db_cluster_instance_name": "",
+"pg_db_engine_version": "",
+"mysql_db_engine_version": "",
+"pg_db_family": "",
+"mysql_db_family" : "",
+"pg_db_identifier" : "",
+"mysql_db_identifier" : "",
+"db_master_password" : "",
+"db_name" : "",
+"dsfhub_token" : "",
+"dsfhub_host" : "",
+"gateway_id" : "",
+"agentless_gateway_iam_role_name": "",
+"dsf_cloud_account_asset_id" : ""
+} 
