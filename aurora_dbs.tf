@@ -110,7 +110,7 @@ resource "aws_rds_cluster" "aurora_mysql_cluster" {
 resource "aws_rds_cluster_instance" "aurora_mysql_instance" {
   depends_on = [aws_rds_cluster.aurora_mysql_cluster]
  
-  identifier          = var.db_cluster_instance_name
+  identifier          = "instance-${lower(var.db_name)}-mysql"
   cluster_identifier  = aws_rds_cluster.aurora_mysql_cluster.id
   instance_class      = var.db_cluster_instance_class
   engine              = aws_rds_cluster.aurora_mysql_cluster.engine
