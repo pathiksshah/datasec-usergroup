@@ -1,3 +1,14 @@
+terraform {
+  backend "s3" {
+    bucket         = var.backend_bucket
+    key            = var.backend_bucket_key # Customize this per env
+    region         = var.backend_bucket_region
+    dynamodb_table = var.backend_lock_dynamodb_table
+    encrypt        = true
+  }
+}
+
+
 provider "aws" {
   region = var.region
 }

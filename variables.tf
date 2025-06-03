@@ -1,3 +1,24 @@
+#Terraform Backend
+
+variable "backend_bucket" {
+  description = "Backend bucket for statemanagmement"
+  type = string
+}
+  variable "backend_bucket_key"{
+  description = "Backend bucket for statemanagmement"
+  type = string
+}
+
+  variable "backend_bucket_region" {
+  description = "Backend bucket for statemanagmement"
+  type = string
+}
+
+variable "backend_lock_dynamodb_table" {
+  description = "Backend bucket for statemanagmement"
+  type = string
+}
+
 # DSFHUB Asset Variables
 variable "admin_email" {
   description = "The email address to notify about this asset"

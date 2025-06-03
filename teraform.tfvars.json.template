@@ -1,4 +1,8 @@
 {
+"backend_bucket" : "",
+"backend_bucket_key" : "",
+"backend_bucket_region" : "",
+"backend_lock_dynamodb_table" :"",
 "additional_tags" : {
     "Owner"   : "",
     "Owner email" : "",
